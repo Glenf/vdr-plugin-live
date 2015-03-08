@@ -163,6 +163,8 @@ cTimer* timer;
 <& pageelems.doc_type &>
 <html>
 	<head>
+                <& pageelems.meta &>
+                <& pageelems.meta &>
 		<title>VDR Live - <$ timer ? tr("Edit timer") : tr("New timer") $></title>
 <%cpp>
 	if (!ajaxReq) {

@@ -92,6 +92,7 @@ using namespace std;
 <& pageelems.doc_type &>
 <html>
 	<head>
+                <& pageelems.meta &>
 		<title>VDR-Live - <$ pageTitle $></title>
 <%cpp>
 	if (!ajaxReq) {

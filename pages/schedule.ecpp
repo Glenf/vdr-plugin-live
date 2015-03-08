@@ -58,6 +58,7 @@ if (!logged_in && LiveSetup().UseAuth()) return reply.redirect("login.html");
 <& pageelems.doc_type &>
 <html>
 	<head>
+                <& pageelems.meta &>
 		<title>VDR Live - <$ pageTitle $></title>
 		<& pageelems.stylesheets &>
 		<& pageelems.ajax_js &>

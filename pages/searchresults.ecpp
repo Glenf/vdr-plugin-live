@@ -45,6 +45,7 @@ bool logged_in(false);
 <& pageelems.doc_type &>
 <html>
 	<head>
+                <& pageelems.meta &>
 		<title>VDR-Live - <$ pageTitle $></title>
 		<& pageelems.stylesheets &>
 		<& pageelems.ajax_js &>

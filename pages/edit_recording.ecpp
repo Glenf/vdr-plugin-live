@@ -91,6 +91,7 @@ const cRecording* recording;
 <& pageelems.doc_type &>
 <html>
 	<head>
+                <& pageelems.meta &>
 		<title>VDR Live - <$ tr("Edit recording") $></title>
 <%cpp>
 	if (!ajaxReq) {

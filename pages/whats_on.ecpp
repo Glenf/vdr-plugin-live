@@ -92,10 +92,11 @@ if (type == "now") {
 <& pageelems.doc_type &>
 <html>
 	<head>
+                <& pageelems.meta &>
 		<title>VDR-Live - <$ head $></title>
 		<& pageelems.stylesheets &>
 		<& pageelems.ajax_js &>
-		<script type="text/javascript"><!--
+		<script><!--
 		function showtime(selection)
 		{
 			if (selection.options[selection.selectedIndex].value != "")

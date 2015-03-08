@@ -150,6 +150,7 @@ if (!logged_in && LiveSetup().UseAuth()) return reply.redirect("login.html");
 <& pageelems.doc_type &>
 <html>
 	<head>
+                <& pageelems.meta &>
 		<title>VDR Live - <$ tr("Search") $></title>
 		<& pageelems.stylesheets &>
 		<& pageelems.ajax_js &>

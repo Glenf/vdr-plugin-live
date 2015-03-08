@@ -51,6 +51,7 @@ using namespace vdrlive;
 <& pageelems.doc_type &>
 <html>
 	<head>
+                <& pageelems.meta &>
 		<title>VDR-Live - <$ pageTitle $></title>
 		<& pageelems.stylesheets &>
 <%cpp>

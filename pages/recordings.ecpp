@@ -92,6 +92,8 @@ diskinfo = cString::sprintf("%s %d%%  -  %2d:%02d %s", trVDR("Disk"), Percent, H
 <& pageelems.doc_type &>
 <html>
 	<head>
+                <& pageelems.meta &>
+                <& pageelems.meta &>
 		<title>VDR-Live - <$ pageTitle $></title>
 		<& pageelems.stylesheets &>
 		<& pageelems.ajax_js &>
