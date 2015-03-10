@@ -1,3 +1,21 @@
+# Notes
+
+This is my personal attempt to rebuild/refactor css structures to
+fit responsive design principles. 
+
+## Goals / Rules
+
+* Minimal changes to html
+* Minimal changes to js
+* Minimal changes to UI
+
+For every change in html, js or UI there must be a good reason. Small
+structural changes are ok but larger rewrites must be avoided. CSS3 
+for UI recreation is ok.
+
+
+VDR-PLUGIN-LIVE
+===============
 This is a "plugin" for the Video Disk Recorder (VDR).
 
 Written by:                  Thomas Keil <tkeil@datacrystal.de>
