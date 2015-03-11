@@ -1,8 +1,61 @@
+/*
+ * New navigation
+ */
+
+.menu {
+    padding : 0 .5rem;
+    background-color : #1A237E;
+}
+
+.nav {
+    list-style : none outside none;
+    padding : 0;
+    margin : 0;
+
+    &:before, 
+    &:after {
+        content : " ";
+        display : table;
+        clear : both;
+    }
+}
+
+.nav__item {
+    display : block;
+    float : left;
+    width : 50%;
+
+    @media (min-width: 520px) {
+        width : 33%;
+    }
+
+    @media (min-width: 720px) {
+        width : 25%;
+    }
+
+    @media (min-width: 1000px) {
+        width : auto;
+        display : inline-block;
+    }
+}
+
+.nav__link {
+    display : block;
+    padding : .6rem .4rem;
+
+    color : #E8EAF6;
+    font-weight : bold;
+    line-height : 1;
+}
+
+
+
 /* #######################
    #  Menue
    #######################
 */
 
+/*
 div.menu {
     background: #000057  url(img/menu_line_bg.png) repeat-x;
     min-height: 27px;
@@ -37,6 +90,8 @@ div.inhalt {
     overflow: auto;
     padding: 10px;
 }
+*/
+
 
 /* styles for pagemenu */
 
