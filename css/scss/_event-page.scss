@@ -1,0 +1,153 @@
+
+/* ################
+   #  Event (page: whats_on.html)
+   ################
+*/
+
+div.event {
+    width: 255px;
+    height: 255px;
+    padding: 0;
+    margin-right: 5px;
+    float: left;
+}
+
+div.event div.station {
+    margin: 0;
+    padding: 0;
+    width: 255px;
+}
+
+div.station div {
+    margin: 0;
+    padding: 0;
+    background: url(img/bg_box_l.png) top left no-repeat;
+    height: 23px;
+}
+
+div.station div div {
+    background: url(img/bg_box_r.png) top right no-repeat;
+}
+
+div.station div div div {
+    background: url(img/bg_box_h.png) repeat-x;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: left;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-left: 5px;
+    padding-top: 2px;
+    font-weight: bold;
+}
+
+div.station div div div a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+td div.station {
+    vertical-align: middle;
+}
+
+td div.station a {
+    color: black;
+    font-weight: bold;
+}
+
+div.content {
+    width: 253px;
+    height: 220px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+    background: white url(img/bg_tools.png) top left repeat-y;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+div.content div.tools {
+    float: left;
+    width: 26px;
+    height: 220px;
+    margin: 0;
+    padding: 0;
+    padding-top: 3px;
+
+    text-align: center;
+    vertical-align: top;
+}
+
+div.content div.tools img {
+    margin: 2px 5px;
+}
+
+div.content div {
+    padding-left: 0px;
+    margin-left: 35px;
+}
+
+div.content div div {
+    margin-left: 0px;
+}
+
+div.description {
+    margin: 5px 5px 0px 5px;
+    overflow: hidden;
+}
+
+div.title {
+    margin: 5px;
+}
+
+div.short {
+    margin: 5px;
+}
+
+div.info {
+    padding: 5px 5px 5px 0px;
+        overflow: hidden;
+}
+
+div.info div.time {
+    float: right;
+        padding: 0px;
+}
+
+div.info div.date {
+    float: left;
+        padding: 0px;
+}
+
+div.progress {
+    overflow: hidden;
+    padding-right: 4px;
+    margin: 0px;
+}
+
+div.progress div {
+    float: right;
+    padding: 0px;
+}
+
+div.__progress {
+    overflow: hidden;
+    width: 100px;
+    height: 8px;
+    border: 1px solid #C0C1DA;
+}
+
+div.__progress_invisible {
+    overflow: hidden;
+    width: 100px;
+    height: 10px;
+    border: 0px none transparent;
+}
+
+div.__progress div.__elapsed {
+    float: left;
+    height: 8px;
+    background-color: #E9EFFF;
+}

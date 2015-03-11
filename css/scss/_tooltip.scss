@@ -1,0 +1,56 @@
+
+/* ######################
+   # Tooltip style for hints
+   ######################
+*/
+
+.hint-tip {
+    margin: 0px auto;
+    max-width: 480px; /* depends on the tip backround image width */
+    color: #fff;
+}
+
+.hint-tip .hint-tip-top .hint-tip-c,
+.hint-tip .hint-tip-bot .hint-tip-c {
+    font-size: 1px; /* ensure minimum height */
+    height: 17px;
+}
+
+.hint-tip .hint-tip-top {
+    background: transparent url(img/rounded-box-blue-tl.png) no-repeat 0px 0px;
+    margin-right: 17px; /* space for right corner */
+}
+
+.hint-tip .hint-tip-top .hint-tip-c {
+    background: transparent url(img/rounded-box-blue-tr.png) no-repeat right 0px;
+    margin-right: -17px; /* pull right corner back over "empty" space (from above margin) */
+}
+
+.hint-tip .hint-tip-bdy {
+    background: transparent url(img/rounded-box-blue-ml.png) repeat-y 0px 0px;
+    margin-right: 17px;
+}
+
+.hint-tip .hint-tip-bdy .hint-tip-c {
+    background: transparent url(img/rounded-box-blue-mr.png) repeat-y right 0px;
+    margin-right: -17px;
+}
+
+.hint-tip .hint-tip-bdy .hint-tip-c .hint-tip-s { /* optional gradient overlay */
+    /* background: transparent url(img/rounded-box-blue-ms.jpg) repeat-x 0px 0px; */
+    padding: 0px 17px 0px 17px;
+}
+
+.hint-tip .hint-tip-bot {
+    background: transparent url(img/rounded-box-blue-bl.png) no-repeat 0px 0px;
+    margin-right: 17px;
+}
+
+.hint-tip .hint-tip-bot .hint-tip-c {
+    background: transparent url(img/rounded-box-blue-br.png) no-repeat right 0px;
+    margin-right: -17px;
+}
+
+.hint-title {
+    display: none;
+}

@@ -1,0 +1,72 @@
+
+/*
+  ##############################
+  #  Recordings
+  ##############################
+*/
+
+div.recordings {
+    border: 1px solid black;
+}
+
+.recordings ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.recording_item {
+    overflow: hidden;
+    background: url(img/bg_line.png) bottom repeat-x;
+    border-bottom: 1px solid #C0C1DA;
+}
+
+.recording_item div {
+    float: left;
+}
+
+.recording_item div.recording_imgs{
+    margin-right: 0.5em;
+}
+
+.recording_item div.recording_spec {
+    padding-top: 0.5ex;
+}
+
+.recording_item div.recording_day {
+    width: 13em;
+}
+
+.recording_item div.recording_date {
+    width: 5.25em;
+}
+
+.recording_item div.recording_time {
+    width: 5.75em;
+}
+
+.recording_item div.recording_duration {
+    width: 4em;
+}
+
+.recording_item div.recording_name {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.recording_item div.recording_name span {
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.recording_item div.recording_arch {
+    float: right;
+    padding-top: 0.5ex;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.recording_item div.recording_actions {
+    float: right;
+    padding-right: 3em;
+}

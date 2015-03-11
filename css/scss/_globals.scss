@@ -1,0 +1,114 @@
+/* ######################
+   #  Globals
+   ######################
+*/
+
+html, body {
+    color: black;
+    background-color: white;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+table {
+    font-size: 11px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+tr, td {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border: 1px solid #6D96A9;
+    font-size: 11px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background: #FEFEFE;
+    margin: 0;
+}
+
+select {
+    border: 1px solid #6D96A9;
+    font-size: 11px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+/* #########################
+   # global style properties
+   #########################
+*/
+
+.bold {
+    font-weight: bold;
+}
+
+/* ==============================
+   =  Dotted Frame
+   ==============================
+*/
+
+.dotted {
+    border: 1px dotted #bbbbbb;
+    padding: 3px;
+    margin: 2px;
+    float: left;
+    background-color: #f3f3f3;
+}
+
+
+.title {
+    font-weight: bold;
+}
+
+.short {
+    font-weight: normal;
+}
+
+.more {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.withmargin {
+    margin: 5px;
+}
+
+.nomargin {
+    margin: 0px;
+}
+
+.notpresent {
+    display: none;
+}
+
+.nowrap {
+    white-space: nowrap;
+}

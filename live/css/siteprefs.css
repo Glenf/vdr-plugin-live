@@ -12,7 +12,7 @@
 */
 /*
 table {
-	width: 100%;
+    width: 100%;
 }
 */
 
@@ -20,8 +20,8 @@ table {
  * the popup windows. This here restricts their width to 120 px.
  * You might also only change size.
  */
-.info-win span.epg_images {
-	width: 120px;
-}
+/*.info-win span.epg_images {*/
+    /*width: 120px;*/
+/*}*/
 
 

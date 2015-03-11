@@ -1,0 +1,79 @@
+/*
+  ##############################
+  #  Blue Background Thingy
+  ##############################
+*/
+
+div.boxheader    {
+    margin: 0px;
+    padding: 0px;
+    background: url(img/bg_box_l.png) top left no-repeat;
+}
+
+div.boxheader div {
+    margin: 0px;
+    background: url(img/bg_box_r.png) top right no-repeat;
+}
+
+div.boxheader div div {
+    background: url(img/bg_box_h.png) repeat-x;
+    vertical-align: middle;
+    text-align: left;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: white;
+    font-weight: bold;
+    height: 21px;
+        line-height: 20px;
+}
+
+/*
+  ##############################
+  #  Remote Control Keypad
+  ##############################
+*/
+
+div.screenshot {
+    background-image: url(img/tv.jpg);
+    background-repeat: no-repeat;
+    height: 320px;
+    width: 569px;
+    float: left;
+    padding: 20px 20px 98px 21px;
+    margin-right: 20px;
+}
+
+div.screenshot img {
+    width: 569px;
+    height: 320px;
+}
+
+
+/*
+  ##############################
+  #  Login
+  ##############################
+*/
+
+table.login {
+    margin: 0 auto;
+}
+
+table.login tr td {
+    padding: 3px 5px;
+    text-align: right;
+}
+
+
+/* ##############################
+   # VLC page
+   ##############################
+*/
+
+div#vlcControls {
+    padding-top: 5px;
+    text-align: center;
+}
+

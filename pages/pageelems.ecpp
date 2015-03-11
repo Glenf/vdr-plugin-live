@@ -34,10 +34,9 @@ int update_status(1);
 <# ---------------------------------------------------------------------- #>
 
 <%def stylesheets>
-<link rel="stylesheet" href="styles.css"/>
-<link rel="stylesheet" href="<$ LiveSetup().GetThemedLink("css", "theme.css") $>"/>
-<link rel="stylesheet" href="css/siteprefs.css"/>
-<link rel="stylesheet" href="css/DatePicker.css"/>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="<$ LiveSetup().GetThemedLink("css", "theme.css") $>">
+<link rel="stylesheet" href="css/siteprefs.css">
 </%def>
 
 <# ---------------------------------------------------------------------- #>
@@ -206,7 +205,7 @@ int update_status(1);
 		if (LiveSetup().GetShowInfoBox()) {
 </%cpp>
 	<script src="js/live/vdr_status.js"></script>
-	<script 
+	<script
 		var InfoBox = new LiveVdrInfo('ibox.xml', 'infobox');
 		window.addEvent('domready', function(){
 			InfoBox.request(<%cpp> if (update_status) { reply.sout() << "true"; } else { reply.sout() << "false"; } </%cpp>);

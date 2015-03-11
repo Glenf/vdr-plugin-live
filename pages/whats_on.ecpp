@@ -92,7 +92,7 @@ if (type == "now") {
 <& pageelems.doc_type &>
 <html>
 	<head>
-                <& pageelems.meta &>
+        <& pageelems.meta &>
 		<title>VDR-Live - <$ head $></title>
 		<& pageelems.stylesheets &>
 		<& pageelems.ajax_js &>
@@ -107,7 +107,7 @@ if (type == "now") {
 			if (selection.value != "")
 				window.location.href = "whats_on.html?type=at&mode=<$ current_mode $>&attime=" + selection.value;
 		}
-		//--></script>
+		--></script>
 	</head>
 	<body>
 		<& pageelems.logo &>

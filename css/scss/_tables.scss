@@ -1,0 +1,250 @@
+
+/* ################################
+   # general table cell classes
+   ################################
+*/
+table td.buttonpanel {
+    text-align: right;
+}
+
+table td.toprow {
+}
+
+table th.toprow {
+}
+
+table td.bottomrow {
+    border-bottom: 1px solid black !important;
+}
+
+table td.leftcol {
+    border-left: 1px solid black;
+}
+
+table td.rightcol {
+    border-right: 1px solid black;
+}
+
+table td.topaligned {
+    vertical-align: top;
+}
+
+table td.padded {
+    padding: 3px 7px 3px 3px;
+}
+
+/* ##################################
+   # table listing
+   # (this is used in listing tables)
+   ##################################
+*/
+
+table.listing {
+    padding: 0px;
+    margin: 0px;
+}
+
+table.listing tr td {
+    background: transparent url(img/bg_line.png) bottom repeat-x;
+    border-bottom: 1px solid #C0C1DA;
+}
+
+table.listing tr td.action {
+    padding-left: 3px;
+    padding-right: 5px;
+}
+
+table.listing tr td.leftcol {
+    padding-left: 7px;
+    padding-right: 5px;
+}
+
+table.listing tr td.current {
+    color: blue;
+}
+
+table.listing tr.head td {
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid black;
+}
+
+table.listing tr.description td {
+    font-weight: bold;
+    background: #E9EFFF;
+}
+
+table.listing tr.spacer td {
+    height: 10px;
+    background: transparent;
+    border-bottom: 0px;
+}
+
+table.listing a {
+    color: black;
+    font-weight: bold;
+}
+
+/* ##################################
+   # table schedule
+   # (this is used for the MultiSchedule)
+   ##################################
+*/
+
+table.mschedule {
+    padding: 0px;
+    margin: 0px;
+}
+
+table.mschedule tr {
+        height: 12px;
+}
+
+table.mschedule tr td.event {
+    background: transparent url(img/bg_line.png) bottom repeat-x;
+    border-bottom: 1px solid #C0C1DA;
+}
+
+table.mschedule tr td.has_timer {
+        background-color: #FFE0E0;
+}
+
+table.mschedule tr td.odd {
+        background-color: #D0D0ff;
+}
+
+table.mschedule tr td.even {
+        background-color: #ffffff;
+}
+
+table.mschedule tr td.current_row {
+        background-color: #ffB0B0;
+}
+
+table.mschedule tr td.leftcol {
+    padding-left: 7px;
+    padding-right: 5px;
+}
+
+table.mschedule div.content1 {
+        min-width: 10em;
+        max-width: 30em;
+}
+
+table.mschedule div.tools1 {
+        float: right;
+}
+
+table.mschedule div.start {
+        float: left;
+}
+
+table.mschedule tr td div.title {
+        padding: 3px;
+        clear: both;
+}
+
+table.mschedule tr td div.short {
+        clear: both;
+        overflow: hidden;
+}
+
+table.mschedule tr td div.description {
+        overflow: hidden;
+        clear: both;
+}
+
+table.mschedule a {
+    color: black;
+    font-weight: bold;
+}
+
+/*
+  ##############################
+  #  Error widget
+  ##############################
+*/
+
+table.error {
+    border: 1px solid #E9360D;
+    margin: 2px;
+    padding: 0px;
+}
+
+table.error tr td.message {
+    padding: 5px;
+}
+
+table.error tr td.title {
+    background: #E9360D;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 3px 3px 3px 10px;
+}
+
+table.error td.border {
+    padding: 0;
+    margin: 0;
+    width: 1px;
+}
+
+/*
+  ##############################
+  #  Formular Tables
+  #  (are used in forms to group input elements)
+  ##############################
+*/
+
+table.formular {
+    margin-top: 10px;
+}
+
+table.formular tr td {
+    vertical-align: top;
+    vertical-align: middle;
+    background: url(img/bg_line.png) bottom repeat-x;
+    border-bottom: 1px solid #C0C1DA;
+}
+
+table.formular tr td input {
+        margin-top: 5px;
+        margin-bottom: 2px;
+}
+
+table.formular tr td .dotted input {
+        margin-top: 0px;
+}
+
+table.formular tr td.leftcol {
+    padding-left: 2px;
+}
+
+table.formular tr td.rightcol {
+    padding-right: 7px;
+}
+
+table.formular tr td.label {
+    font-weight: bold;
+    vertical-align: top;
+}
+
+table.formular tr.head td {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+table.dependent {
+    background-color: #FFFFFF;
+    margin-top: 0px;
+}
+
+table.dependent tr td {
+    background: transparent;
+    vertical-align: middle;
+}
