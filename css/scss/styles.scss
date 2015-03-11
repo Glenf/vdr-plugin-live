@@ -1,9 +1,28 @@
+/*
+ * General box sixing reset
+ */
 
+* {
+    &,
+    &:before,
+    &:after {
+        box-sizing : border-box;
+    }
+}
+
+/* Normalize browser differences */
+@import 'normalize';
+
+/* Fonts, typo etc */
 @import 'globals';
+
+/* Navigation elements */
+@import 'menu';
+
 @import 'tooltip';
 @import 'notifications';
 @import 'epg';
-@import 'menu';
+
 
 @import 'infobox';
 
